@@ -1,0 +1,39 @@
+.contenedor{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    
+}
+
+.ico{
+    color: white;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.ico:hover{
+    color: #00a8ff;
+    cursor:pointer;
+}
+
+.icoActive{
+    margin: 5px;
+    font-size: 20px;
+    color:#00aaff71;
+}
+
+.icoActive:hover{
+    color: #00a8ff;
+    cursor:pointer;
+}
+
+
+@media (max-width: 768px) { 
+    .contenedor{
+        width: 100%;
+        height: 50%;
+    }
+}
