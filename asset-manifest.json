@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/ur-games/static/css/main.0cffb451.chunk.css",
+    "main.js": "/ur-games/static/js/main.aae98a3f.chunk.js",
+    "main.js.map": "/ur-games/static/js/main.aae98a3f.chunk.js.map",
+    "runtime-main.js": "/ur-games/static/js/runtime-main.1332a5f7.js",
+    "runtime-main.js.map": "/ur-games/static/js/runtime-main.1332a5f7.js.map",
+    "static/js/2.7f4e02bf.chunk.js": "/ur-games/static/js/2.7f4e02bf.chunk.js",
+    "static/js/2.7f4e02bf.chunk.js.map": "/ur-games/static/js/2.7f4e02bf.chunk.js.map",
+    "static/js/3.aa6eeaaa.chunk.js": "/ur-games/static/js/3.aa6eeaaa.chunk.js",
+    "static/js/3.aa6eeaaa.chunk.js.map": "/ur-games/static/js/3.aa6eeaaa.chunk.js.map",
+    "index.html": "/ur-games/index.html",
+    "static/css/main.0cffb451.chunk.css.map": "/ur-games/static/css/main.0cffb451.chunk.css.map",
+    "static/js/2.7f4e02bf.chunk.js.LICENSE.txt": "/ur-games/static/js/2.7f4e02bf.chunk.js.LICENSE.txt",
+    "static/media/Node.js_logo.c2e22c63.png": "/ur-games/static/media/Node.js_logo.c2e22c63.png",
+    "static/media/React.a544fd8c.png": "/ur-games/static/media/React.a544fd8c.png",
+    "static/media/css-modules.492a1cb0.png": "/ur-games/static/media/css-modules.492a1cb0.png",
+    "static/media/express.ea43790c.png": "/ur-games/static/media/express.ea43790c.png",
+    "static/media/fontawesome.89cb829a.png": "/ur-games/static/media/fontawesome.89cb829a.png",
+    "static/media/heroku-logo.1fd6ab27.png": "/ur-games/static/media/heroku-logo.1fd6ab27.png",
+    "static/media/landing.954420a2.jpg": "/ur-games/static/media/landing.954420a2.jpg",
+    "static/media/logo.1de192fd.png": "/ur-games/static/media/logo.1de192fd.png",
+    "static/media/no-matches.5878d095.png": "/ur-games/static/media/no-matches.5878d095.png",
+    "static/media/postman-logo.e2fc579c.png": "/ur-games/static/media/postman-logo.e2fc579c.png",
+    "static/media/profile.5e7c9faf.png": "/ur-games/static/media/profile.5e7c9faf.png",
+    "static/media/rawg.508c8d62.jpg": "/ur-games/static/media/rawg.508c8d62.jpg",
+    "static/media/reactrouter.66e99106.png": "/ur-games/static/media/reactrouter.66e99106.png",
+    "static/media/redux.b3b939c6.png": "/ur-games/static/media/redux.b3b939c6.png",
+    "static/media/sequelize-logo-small.844fb918.png": "/ur-games/static/media/sequelize-logo-small.844fb918.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1332a5f7.js",
+    "static/js/2.7f4e02bf.chunk.js",
+    "static/css/main.0cffb451.chunk.css",
+    "static/js/main.aae98a3f.chunk.js"
+  ]
+}
