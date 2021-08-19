@@ -1,7 +1,7 @@
 
 import axios from 'axios'
 
-const BACK_SERVER =  'http://localhost:3001';
+const BACK_SERVER =  'https://ur-games.herokuapp.com/videogames';
 
 export async function getAllGameApi() {
     
