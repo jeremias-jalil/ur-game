@@ -1,3 +1,3 @@
 window.env = {
-  "BACK_SERVER": "http://localhost:3001"
+  "BACK_SERVER": "https://ur-games.herokuapp.com"
 };
