@@ -7,10 +7,15 @@ import logo from '../../logo.png'
 import style from './Landing.module.css'
 
 import { setPage } from '../../redux/actions';
+import { getAllGame } from '../../redux/actions'
 
 export default function Landing() {
     const history = useHistory()
     const dispatch = useDispatch()
+
+    useEffect(() => {
+        dispatch(getAllGame(gamesBackUp)) // eslint-disable-next-line
+    }, []) 
 
     return (
         <div style={{ backgroundImage: `url(${imgBack})` }} className={style.contenedor}>
