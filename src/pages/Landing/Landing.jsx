@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useHistory } from 'react-router-dom';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 import imgBack from '../../landing.jpg'
 import logo from '../../logo.png'
@@ -12,6 +12,8 @@ import { getAllGame } from '../../redux/actions'
 export default function Landing() {
     const history = useHistory()
     const dispatch = useDispatch()
+
+    const { gamesBackUp } = useSelector(state => state)
 
     useEffect(() => {
         dispatch(getAllGame(gamesBackUp)) // eslint-disable-next-line

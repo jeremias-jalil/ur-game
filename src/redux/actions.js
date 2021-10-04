@@ -57,13 +57,13 @@ export function getAllPlatform() {
 
 export function getAllGame(gamesBackUp) {
     return (dispatch => {
-        dispatch({ type: LOADING })
+        dispatch({ type: LOADING, payload:true })
         if (gamesBackUp.length > 0) {
             dispatch({
                 type: GET_GAMES,
                 payload: gamesBackUp
             })
-            dispatch({ type: LOADING })
+            dispatch({ type: LOADING, payload:false })
         }
         else {
             getAllGameApi()
@@ -78,7 +78,7 @@ export function getAllGame(gamesBackUp) {
                         payload: res
                     })
 
-                    dispatch({ type: LOADING })
+                    dispatch({ type: LOADING, payload:false })
                 }
                 )
                 .catch(err => dispatch({ type: ERROR, payload: err }))
@@ -89,7 +89,7 @@ export function getAllGame(gamesBackUp) {
 export function getGameByName(name) {
     return (dispatch => {
         console.log(name)
-        dispatch({ type: LOADING })
+        dispatch({ type: LOADING, payload:true })
         getGameByNameApi(name)
             .then(res => {
 
@@ -97,7 +97,7 @@ export function getGameByName(name) {
                     type: GET_GAMES_BY_NAME,
                     payload: res
                 })
-                dispatch({ type: LOADING })
+                dispatch({ type: LOADING, payload:false })
             }
             )
             .catch(err => {
@@ -111,14 +111,14 @@ export function getGameByName(name) {
 
 export function getGameById(id) {
     return (dispatch => {
-        dispatch({ type: LOADING })
+        dispatch({ type: LOADING, payload:true })
         getGameByIdApi(id)
             .then(res => {
                 dispatch({
                     type: GET_GAMES_BY_ID,
                     payload: res
                 })
-                dispatch({ type: LOADING })
+                dispatch({ type: LOADING, payload:false })
             }
             )
             .catch(err => dispatch({ type: ERROR, payload: err }))
@@ -150,9 +150,9 @@ export function filterByGenre(id) {
 
     return (
         dispatch => {
-            dispatch({ type: LOADING })
+            dispatch({ type: LOADING, payload:true })
             dispatch({ type: FILTER_BY_GENRE, payload: id })
-            dispatch({ type: LOADING })
+            dispatch({ type: LOADING, payload:false })
         }
     )
 }
@@ -161,9 +161,9 @@ export function filterBySource(id) {
 
     return (
         dispatch => {
-            dispatch({ type: LOADING })
+            dispatch({ type: LOADING, payload:true })
             dispatch({ type: FILTER_BY_SOURCE, payload: id })
-            dispatch({ type: LOADING })
+            dispatch({ type: LOADING, payload:false })
         }
     )
 }
@@ -172,9 +172,9 @@ export function filterByPlatform(id) {
 
     return (
         dispatch => {
-            dispatch({ type: LOADING })
+            dispatch({ type: LOADING, payload:true })
             dispatch({ type: FILTER_BY_PLATFORM, payload: id })
-            dispatch({ type: LOADING })
+            dispatch({ type: LOADING, payload:false })
         }
     )
 }
