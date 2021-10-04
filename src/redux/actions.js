@@ -88,7 +88,6 @@ export function getAllGame(gamesBackUp) {
 
 export function getGameByName(name) {
     return (dispatch => {
-        console.log(name)
         dispatch({ type: LOADING, payload:true })
         getGameByNameApi(name)
             .then(res => {
